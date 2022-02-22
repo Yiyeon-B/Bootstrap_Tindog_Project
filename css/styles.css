@@ -1,0 +1,198 @@
+body {
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1 {
+    color: white;
+    font-size: 3.2rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: left;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.section-heading {
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+
+/* Nav Bar */
+
+.navbar {
+    margin: 0;
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.1rem;
+
+    
+}
+
+.nav-item {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    padding: 0 18px;
+}
+
+
+
+/* Download Buttons */
+
+.download-btn {
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 20px;
+}
+
+.btn-outline-light {
+    margin-left: 20px;
+}
+
+.btn-icon {
+    height: 30px;
+    margin-right: 7px;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections */
+
+.color-section {
+    background-color: #ff4c68;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/* Title Image */
+
+#title .container-fluid {
+    padding: 1% 15% 7%;
+}
+
+.tindog-img {
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative;
+    left: 80px;
+}
+
+/* Features Section */
+
+#features {
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.icon {
+    color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    color: white;
+    background-color: #ef8172;
+}
+
+.testimonial-text {
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    border-radius: 50%;
+    width: 10%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+}
+
+.price-text {
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.pricing-dog {
+    font-size: 1.2rem;
+}
+
+#cta {
+    padding: 6%;
+}
+
+.cta-text {
+    color:#fff;
+    font-weight: bolder;
+    padding-bottom: 3%;
+    font-size: 3.5rem;
+}
+
+.cta-button {
+    margin: 1%;
+}
+
+/* Footer */
+
+.footer-logo {
+    margin: .5%;
+    padding-bottom: 1%;
+}
+
+@media (max-width: 991px) {
+    .tindog-img {
+        position: static;
+        transform: rotate(0);
+        padding-top: 5%;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
